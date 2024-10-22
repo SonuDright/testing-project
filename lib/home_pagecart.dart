@@ -154,7 +154,7 @@ class _HomePageCartState extends State<HomePageCart> {
                   ),
                   padding: EdgeInsets.symmetric(vertical: screenHeight * 0.02),
                 ),
-                child: Text('Sign in', style: TextStyle(fontSize: screenHeight * 0.025)),
+                child: Text('Sign in', style: TextStyle(fontSize: screenHeight * 0.025,fontWeight: FontWeight.bold)),
               ),
 
               SizedBox(height: screenHeight * 0.02),
